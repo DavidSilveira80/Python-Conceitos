@@ -17,6 +17,12 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Coleções
+    - [X] Listas
+    - [ ] Tuplas
+    - [ ] Dicionários
+    - [ ] Mapas
+    - [ ] Conjuntos
+    - [ ] Módulo Collections
 - [ ] Funções
 - [ ] POO
 - [ ] Testes
