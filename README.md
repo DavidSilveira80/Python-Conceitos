@@ -8,7 +8,7 @@
 
 
 
-> Repsitório voltado para os conceitos da Linguagem Python
+> Repositório voltado para os conceitos da Linguagem Python
 
 ### Ajustes e melhorias
 
