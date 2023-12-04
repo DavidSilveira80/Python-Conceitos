@@ -19,14 +19,17 @@ validações já eram.
 assert 4 == 4
 # assert 4 == 2, '4 não é igual a 2'
 
+
 def soma_numeros_positivos(a, b):
-    assert a > 0 and b > 0 , 'Ambos precisam ser positivos'
+    assert a > 0 and b > 0, 'Ambos precisam ser positivos'
     return a + b
 
-ret = soma_numeros_positivos(2, 4) # 6
+
+ret = soma_numeros_positivos(2, 4)  # 6
 print(ret)
 
 # ret = soma_numeros_positivos(-4, 5) # AssertionError
+
 
 def comer_fast_food(comida):
     assert comida in [
@@ -38,6 +41,6 @@ def comer_fast_food(comida):
     ], 'A comida precisa ser fast food'
     return f'Eu estou comendo {comida}'
 
-print(comer_fast_food('sorvete'))
-#print(comer_fast_food('sopa'))
 
+print(comer_fast_food('sorvete'))
+# print(comer_fast_food('sopa'))
