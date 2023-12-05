@@ -25,6 +25,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     - [ ] Módulo Collections
 - [ ] Funções
 - [ ] POO
+     - [X] Classes
+     - [X] Atributos
 - [ ] Testes
 
 
