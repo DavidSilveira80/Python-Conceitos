@@ -83,8 +83,7 @@ print(user.email)
 
 # print(user.__senha) # AttributeError
 
-print(user._Acesso__senha) # Temos acesso. Mas não deveriamos fazer este acesso. Name Mangling.
-
+print(user._Acesso__senha)  # Temos acesso. Mas não deveriamos fazer este acesso. Name Mangling.
 print(user.mostra_senha()) # Modo correto de acessar.
 print(user.mostra_email())
 
@@ -120,12 +119,13 @@ class Produto:
         self.valor = (valor * Produto.imposto)
 
 
-
 produto1 = Produto('PlayStation 5', 'Vídeo Game', 5300)
 produto2 = Produto('Xbox 5', 'Vídeo Game', 4500)
 
 print(produto1.imposto)  # Acesso possível, mas incorreto de um atributo de classe
 print(produto2.imposto)  # Acesso possível, mas incorreto de um atributo de classe
+
+print(Produto.imposto)  # Acesso correto de um atributo de classe
 
 print(produto1.valor)
 print(produto1.id)
