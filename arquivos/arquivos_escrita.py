@@ -1,5 +1,5 @@
 nome_arquivo = "teste.txt"
-f= open(f"/home/david-rockman/PycharmProjects/Python-Conceitos/arquivos/{nome_arquivo}", "w")
+f= open(f"./{nome_arquivo}", "w")
 
 """
  r - read - Leitura

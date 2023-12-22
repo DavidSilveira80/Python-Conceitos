@@ -27,6 +27,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] POO
      - [X] Classes
      - [X] Atributos
+- [ ] Arquivos 
 - [ ] Testes
 
 
