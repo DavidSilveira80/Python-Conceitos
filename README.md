@@ -24,6 +24,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     - [ ] Conjuntos
     - [ ] Módulo Collections
 - [ ] Funções
+    - [X] Lambdas
 - [ ] POO
      - [X] Classes
      - [X] Atributos
