@@ -19,7 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
       - [X] Dir e help
 - [ ] Coleções
     - [X] Listas
-    - [ ] Tuplas
+    - [X] Tuplas
     - [ ] Dicionários
     - [ ] Mapas
     - [ ] Conjuntos
