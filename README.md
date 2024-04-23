@@ -17,10 +17,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [ ] Utilitários
       - [X] Dir e help
+- [ ] Variáveis e tipos de dados
+      - [X] None
 - [ ] Coleções
     - [X] Listas
     - [X] Tuplas
-    - [ ] Dicionários
+    - [X] Dicionários
     - [ ] Mapas
     - [ ] Conjuntos
     - [ ] Módulo Collections
