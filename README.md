@@ -16,9 +16,9 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Utilitários
-      - [X] Dir e help
+  - [X] Dir e help
 - [ ] Variáveis e tipos de dados
-      - [X] None
+    - [X] None
 - [ ] Coleções
     - [X] Listas
     - [X] Tuplas
