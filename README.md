@@ -23,10 +23,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     - [X] Listas
     - [X] Tuplas
     - [X] Dicionários
-    - [ ] Mapas
-    - [ ] Conjuntos
+    - [X] Mapas
+    - [X] Conjuntos
     - [ ] Módulo Collections
 - [ ] Funções
+    - [X] Definição de funções
+    - [X] Funções com retorno
     - [X] Lambdas
 - [ ] POO
      - [X] Classes
