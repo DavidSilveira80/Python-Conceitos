@@ -29,6 +29,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Funções
     - [X] Definição de funções
     - [X] Funções com retorno
+    - [X] Funções com parâmetros
     - [X] Lambdas
 - [ ] POO
      - [X] Classes
