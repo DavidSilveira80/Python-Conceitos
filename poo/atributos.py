@@ -29,7 +29,7 @@ public classs Lampada(){
 # Em Python, por convenção, ficou estabelecido que, todos os atributos de uma classe é público.
 Ou seja, pode ser acessado em qualquer parte do projeto.
 Caso queiramos demonstrar que determinado atributo deve ser tratado como privado, ou seja, que deve ser
-acessado/utlizado somente da própria classe onde está declarado, utiliza-se: __ duplo undescore no início
+acessado/utilizado somente da própria classe onde está declarado, utiliza-se: __ duplo undescore no início
 de seu nome.
 
 Isso é conhecido também como Name Mangling.
@@ -37,9 +37,10 @@ Isso é conhecido também como Name Mangling.
 
 # Classes com Atributos de Instância Públicos
 
+
 class Lampada:
 
-    def __int__(self, voltagem, cor):
+    def __int__(self, voltagem, cor):  # Método construtor
         self.voltagem = voltagem
         self.cor = cor
         self.ligada = False
@@ -51,6 +52,14 @@ class ContaCorrente:
         self.numero = numero
         self.limite = limite
         self.saldo = saldo
+
+
+class Produto1:
+
+    def __init__(self, nome, descricao, valor):
+        self.nome = nome
+        self.descricao = descricao
+        self.valor = valor
 
 
 class Usuario:
@@ -65,7 +74,7 @@ class Usuario:
 
 class Acesso:
     def __init__(self, email, senha):
-        self.email = email  # público
+        self.email = email  # publico
         self.__senha = senha  # privado
 
     def mostra_senha(self):
@@ -77,14 +86,18 @@ class Acesso:
 #  OBS: Lembre-se que isso é uma convenção, ou seja, a linguagem Python não vai
 #  impedir que façamos acesso aos atributos sinalizados como privados fora da classe
 
+# Exemplo
+
+
 user = Acesso('user@email.com', '123456')
 
 print(user.email)
 
 # print(user.__senha) # AttributeError
 
+
 print(user._Acesso__senha)  # Temos acesso. Mas não deveriamos fazer este acesso. Name Mangling.
-print(user.mostra_senha()) # Modo correto de acessar.
+print(f'Senha: {user.mostra_senha()}')  # Modo correto de acessar.
 print(user.mostra_email())
 
 """
@@ -101,14 +114,14 @@ print(user2.mostra_email())
 
 # Atributos de Classe
 # Atributos de classe, são declarados diretamente na classe, ou seja, fora do construtor. Geralmente já
-# inicializamos um valor, e este valor é compartilhado entre as instâncias da classe. Ou seja ao invés
+# inicializamos um valor, e este valor é compartilhado entre todas as instâncias da classe. Ou seja ao invés
 # de cada instãncia da classe ter seus próprios valores como é o caso dos atributos de instância, com
 # os atributos de classe todas as instâncias terão o mesmo valor para este atributo.
 
 
 class Produto:
     # Atributo de classe
-    imposto = 1.05
+    imposto = 1.05  # 0.05% de imposto
     contador = 0
 
     def __init__(self, nome, descricao, valor):
@@ -127,10 +140,10 @@ print(produto2.imposto)  # Acesso possível, mas incorreto de um atributo de cla
 
 print(Produto.imposto)  # Acesso correto de um atributo de classe
 
-print(produto1.valor)
-print(produto1.id)
-print(produto2.valor)
-print(produto2.id)
+print(f'Nome: {produto1.nome}, Valor: {produto1.valor}')
+print(f'Nome: {produto1.nome}, id: {produto1.id}')
+print(f'Nome: {produto2.nome}, Valor: {produto2.valor}')
+print(f'Nome: {produto2.nome}, id: {produto2.id}')
 
 # OBS: Não precisamos criar uma instância de uma classe para fazer acesso a um atributo de classe
 
