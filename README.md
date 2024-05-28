@@ -33,6 +33,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     - [X] Funções com parâmetro padrão
     - [X] Lambdas
 - [ ] POO
+     - [X] Conceitos de POO
      - [X] Classes
      - [X] Atributos
 - [ ] Arquivos 
