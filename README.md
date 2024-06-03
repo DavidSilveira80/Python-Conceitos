@@ -37,7 +37,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Classes
      - [X] Atributos
      - [X] Herança
-     - [ ] Propriedades
+     - [X] Propriedades
 - [ ] Arquivos 
 - [ ] Testes
 
