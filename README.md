@@ -36,6 +36,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Conceitos de POO
      - [X] Classes
      - [X] Atributos
+     - [X] Herança
+     - [ ] Propriedades
 - [ ] Arquivos 
 - [ ] Testes
 
