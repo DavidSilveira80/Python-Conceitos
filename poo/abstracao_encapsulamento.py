@@ -17,7 +17,12 @@ Encapsular -. cápsula
 Imagine que temos uma classe chamada Pessoa, contendo um atributo
 privado chamado __nome e um método privado chamada __falar()
 
-Esses elelemntos privados só devem/deveriam ser acessados dentro da classe.
+Esses elelementos privados só devem/deveriam ser acessados dentro da classe. Mas o python não bloqueia este
+acessso fora da classe> Com Python acontece um fenêmeno chamado Name Mangling, que faz uma alteração na forma
+de se acessar os elementos privados.
+
+
+
 É possível criar métodos de acesso e alteração dessas variáveis.
 
 
