@@ -38,6 +38,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Atributos
      - [X] Herança
      - [X] Propriedades
+     - [X] Método super()
 - [ ] Arquivos 
 - [ ] Testes
 
