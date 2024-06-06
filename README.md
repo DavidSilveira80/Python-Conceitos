@@ -40,6 +40,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Propriedades
      - [X] Método super()
      - [X] Herança Múltipla
+     - [X] MRO - Method Resolution Order
 - [ ] Arquivos 
 - [ ] Testes
 
