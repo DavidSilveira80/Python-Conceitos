@@ -83,7 +83,7 @@ class Terrestre(Animal):
         return f'Eu sou {self._Animal__nome} da terra!'
 
 
-class Pinguin(Aquatico, Terrestre):
+class Pinguim(Aquatico, Terrestre):
     def __init__(self, nome):
         super().__init__(nome)
 
@@ -100,14 +100,14 @@ print(tatu.andar())
 print(tatu.cumprimentar())
 print()
 
-tux = Pinguin('Tux')
+tux = Pinguim('Tux')
 print(tux.andar())
 print(tux.nadar())
 print(tux.cumprimentar())  # ???? Method Resolution Order - MRO
 
 # Objeto é instância de...
 
-print(f'Tux é instância de Pinguin? {isinstance(tux, Pinguin)}')  # True
+print(f'Tux é instância de Pinguin? {isinstance(tux, Pinguim)}')  # True
 print(f'Tux é instância de Aquatico? {isinstance(tux, Aquatico)}')  # True
 print(f'Tux é instância de Terrestre? {isinstance(tux, Terrestre)}')  # True
 print(f'Tux é isntância de Animal? {isinstance(tux, Animal)}')  # True
