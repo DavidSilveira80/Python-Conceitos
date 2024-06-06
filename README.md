@@ -39,6 +39,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Herança
      - [X] Propriedades
      - [X] Método super()
+     - [X] Herança Múltipla
 - [ ] Arquivos 
 - [ ] Testes
 
