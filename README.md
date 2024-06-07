@@ -41,6 +41,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Método super()
      - [X] Herança Múltipla
      - [X] MRO - Method Resolution Order
+     - [X] Polimorfismo
 - [ ] Arquivos 
 - [ ] Testes
 
