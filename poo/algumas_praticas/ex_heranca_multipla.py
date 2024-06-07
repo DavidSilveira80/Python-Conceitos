@@ -38,10 +38,8 @@ class Inteligente:
 
 class GeladeiraInteligente(Aparelho, Inteligente):
     def __init__(self, marca, modelo):
-        self.ligado = False
-        self.conectado = False
-        self.marca = marca
-        self.modelo = modelo
+        Aparelho.__init__(self, marca, modelo)
+        Inteligente.__init__(self)
         self.temperatura = 0.0
 
     def ajustar_temperatura(self, nova_temperatura):
