@@ -43,6 +43,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] MRO - Method Resolution Order
      - [X] Polimorfismo
      - [X] Métodos Mágicos
+     - [X] Interfaces
 - [ ] Arquivos 
 - [ ] Testes
 
