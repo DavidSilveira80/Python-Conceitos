@@ -46,6 +46,11 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
      - [X] Polimorfismo
      - [X] Métodos Mágicos
      - [X] Interfaces
+- [X] Tratamento de Erros
+     - [X] Erros comuns
+     - [X] Levantando os próprios erros com raise
+     - [X] Bloco try/except
+     - [X] Try, Except, Else e Finally
 - [ ] Arquivos 
 - [ ] Testes
 
