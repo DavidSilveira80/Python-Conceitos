@@ -19,6 +19,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
   - [X] Dir e help
 - [ ] Variáveis e tipos de dados
     - [X] None
+- [ ] Estruturas lógicas e condicionais
+    - [X] Operador Ternário  
 - [ ] Coleções
     - [X] Listas
     - [X] Tuplas
